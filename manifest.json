@@ -1,0 +1,16 @@
+{
+  "name": "道路情報一括確認",
+  "short_name": "道路情報一括確認",
+  "description": "JARTICの通行止め情報 + TOYOTAの通れた道マップ + GPXファイルのルートを重ね合わせて表示します",
+  "icons": [
+      {
+          "src": "icons/icon_192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      }
+  ],
+  "display": "standalone",
+  "start_url": "integrated_road_info.html",
+  "id":"integrated_road_info.html"
+}
+
