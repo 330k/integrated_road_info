@@ -36,6 +36,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: sans-serif;
+  line-height: 1em;
 }
 #header {
   position:absolute;
@@ -237,7 +238,6 @@ async function drawRoadInfo(modal){
   overlays[LAYER_ROADINFO_2].clearLayers();
   overlays[LAYER_ROADINFO_3].clearLayers();
 
-  console.log(roadinfo);
   for(const i of roadinfo){
     try{
       let color = "#000";
